@@ -1,28 +1,10 @@
 {
-    "hints": {
-        "visited_nodes.sum": 22,
-        "visited_nodes.average": 22
-    },
-    "info": {
-        "copyrights": [
-            "GraphHopper",
-            "OpenStreetMap contributors"
-        ],
-        "took": 1
-    },
-    "paths": [
+    "type": "FeatureCollection",
+    "features": [
         {
-            "distance": 130.545,
-            "weight": 83.56347,
-            "time": 99494,
-            "transfers": 0,
-            "bbox": [
-                151.787092,
-                -32.927086,
-                151.788034,
-                -32.926587
-            ],
-            "points": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -44,123 +26,6 @@
                     [
                         151.78709,
                         -32.92709
-                    ],
-                    [
-                        151.78709,
-                        -32.92709
-                    ]
-                ]
-            },
-            "instructions": [
-                {
-                    "distance": 129.812,
-                    "heading": 287.38,
-                    "sign": 0,
-                    "interval": [
-                        0,
-                        4
-                    ],
-                    "text": "Continue onto Stevenson Place",
-                    "time": 98966,
-                    "street_name": "Stevenson Place",
-                    "points": [
-                        [
-                            151.78803000000002,
-                            -32.92676
-                        ],
-                        [
-                            151.78743,
-                            -32.9266
-                        ],
-                        [
-                            151.78731000000002,
-                            -32.926590000000004
-                        ],
-                        [
-                            151.78725,
-                            -32.926640000000006
-                        ],
-                        [
-                            151.78709,
-                            -32.92709
-                        ]
-                    ]
-                },
-                {
-                    "distance": 0.733,
-                    "sign": -2,
-                    "interval": [
-                        4,
-                        5
-                    ],
-                    "text": "Turn left onto Alfred Street",
-                    "time": 528,
-                    "street_name": "Alfred Street",
-                    "points": [
-                        [
-                            151.78709,
-                            -32.92709
-                        ],
-                        [
-                            151.78709,
-                            -32.92709
-                        ]
-                    ]
-                },
-                {
-                    "distance": 0,
-                    "sign": 4,
-                    "last_heading": 106.70765976516452,
-                    "interval": [
-                        5,
-                        5
-                    ],
-                    "text": "Arrive at destination",
-                    "time": 0,
-                    "street_name": "",
-                    "points": [
-                        [
-                            151.78709,
-                            -32.92709
-                        ]
-                    ]
-                }
-            ],
-            "legs": [],
-            "details": {
-                "surface": [
-                    [
-                        0,
-                        4,
-                        "paved"
-                    ],
-                    [
-                        4,
-                        5,
-                        "missing"
-                    ]
-                ],
-                "road_class": [
-                    [
-                        0,
-                        4,
-                        "residential"
-                    ],
-                    [
-                        4,
-                        5,
-                        "service"
-                    ]
-                ]
-            },
-            "ascend": 2.485499382019043,
-            "descend": 0.9989995956420898,
-            "snapped_waypoints": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        151.78803000000002,
-                        -32.92676
                     ],
                     [
                         151.78709,
